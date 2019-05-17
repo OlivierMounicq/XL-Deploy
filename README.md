@@ -1,3 +1,13 @@
 # XL-Deploy
 
-XL Deploy offers an API to use the application 
+XL Deploy offers a [REST API](https://docs.xebialabs.com/xl-deploy/latest/rest-api/index.html) to interact with the application.
+
+And we will use this API to get the dictionary content. I assure that you notify that there is no feature offered by the GUI to export the dictionary content. And, there is likely to be confused by the documentation (without any examples !) offered by Xebia, especially when you start to manipulate the API.
+
+### Export the dictionary content
+
+To export the dictionary, you have to use the [Repository Service](https://docs.xebialabs.com/xl-deploy/latest/rest-api/com.xebialabs.deployit.engine.api.RepositoryService.html) and the resource [CI](https://docs.xebialabs.com/xl-deploy/latest/rest-api/com.xebialabs.deployit.engine.api.RepositoryService.html#/repository/ci/{ID:.+}:GET).
+
+This query uses the GET verb. And the 
+
+
