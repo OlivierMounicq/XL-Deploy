@@ -8,6 +8,10 @@ And we will use this API to get the dictionary content. I assure that you notify
 
 To export the dictionary, you have to use the [Repository Service](https://docs.xebialabs.com/xl-deploy/latest/rest-api/com.xebialabs.deployit.engine.api.RepositoryService.html) and the resource [CI](https://docs.xebialabs.com/xl-deploy/latest/rest-api/com.xebialabs.deployit.engine.api.RepositoryService.html#/repository/ci/{ID:.+}:GET).
 
-This query uses the GET verb. And the 
+The resource is __GET /repository/ci/{ID:.+}__
+
+This query uses the GET verb. And the service is __repository__. The used resource is __ci__. And the input parameter is the ID of the dictionary. For example, see the picture above, the ID of the dictionary is : __Environments/StockDictionary__.
+
+![alt text](/img/Dictionary.png.png "XL Deply Dictionary")
 
 
