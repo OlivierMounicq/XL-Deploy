@@ -63,7 +63,7 @@ public XDocument GetDictionaryContent(string urlToGetDictionaryContent, string l
 
 ```
 
-Remark #1 :  You rather use only one instance HttpClient to perform several queries. [See Remarks paragraph](https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=netframework-4.8 target="_blank)
+Remark #1 :  You rather use only one instance HttpClient to perform several queries. [See Remarks paragraph](https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=netframework-4.8" target="_blank)
 
 ## 2. Export the environment definition
 
