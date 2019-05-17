@@ -33,7 +33,6 @@ using System.Net.Http;
 ```cs
 public XDocument GetDictionaryContent(string urlToGetDictionaryContent, string login, SecureString pwd)
 {
-
   XDocument xml;
   
   //Set the login/password to query API  
@@ -59,7 +58,6 @@ public XDocument GetDictionaryContent(string urlToGetDictionaryContent, string l
   }
 
   return xml;
-
 }
 
 
