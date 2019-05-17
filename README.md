@@ -4,7 +4,7 @@ XL Deploy offers a [REST API](https://docs.xebialabs.com/xl-deploy/latest/rest-a
 
 And we will use this API to get the dictionary content. I assure that you notify that there is no feature offered by the GUI to export the dictionary content. And, there is likely to be confused by the documentation (without any examples !) offered by Xebia, especially when you start to manipulate the API.
 
-### Export the dictionary content
+## 1. Export the dictionary content
 
 To export the dictionary, you have to use the [Repository Service](https://docs.xebialabs.com/xl-deploy/latest/rest-api/com.xebialabs.deployit.engine.api.RepositoryService.html) and the resource [CI](https://docs.xebialabs.com/xl-deploy/latest/rest-api/com.xebialabs.deployit.engine.api.RepositoryService.html#/repository/ci/{ID:.+}:GET).
 
@@ -65,7 +65,9 @@ public XDocument GetDictionaryContent(string urlToGetDictionaryContent, string l
 
 Remark #1 :  You rather use only one instance HttpClient to perform several queries. [See Remarks paragraph](https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=netframework-4.8)
 
-Remark #2 : 
+## 2. Export the environment definition
+
+
 
 
 
