@@ -1,2 +1,3 @@
 # XL-Deploy
-XL deploy queries : how to use the API to get data
+
+XL Deploy offers an API to use the application 
