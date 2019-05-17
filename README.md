@@ -12,6 +12,6 @@ The resource is __GET /repository/ci/{ID:.+}__
 
 This query uses the GET verb. And the service is __repository__. The used resource is __ci__. And the input parameter is the ID of the dictionary. For example, see the picture above, the ID of the dictionary is : __Environments/StockDictionary__.
 
-![alt text](/img/Dictionary.png.png "XL Deply Dictionary")
+![alt text](https://raw.githubusercontent.com/OlivierMounicq/XL-Deploy/master/img/Dictionary.png "XL Deply Dictionary")
 
 
