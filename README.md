@@ -70,7 +70,7 @@ Remark #1 :  You rather use only one instance HttpClient to perform several quer
 
 
 
-# 3. How to get more information about a query.
+## 3. How to get more information about a query.
 
 In order to get some hints about the query that you want to execute, I advise you to use the developer console/tools available in each browser. The _Network_ window can provide you details about the HTTP query (the header, the body and the response). In many case, you could get the query's entire url.
 
