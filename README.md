@@ -22,7 +22,7 @@ http://myxldeployserver/deployit/repository/ci/Environments/StockDictionary
 * myxldeployserver/deployit : the server (root url)
 * repository : the service
 * ci : the resource
-* Environments/StockDictionary : the dictionary ID.
+* Environments/StockDictionary : the dictionary ID (its type : udm.Dictionary).
 
 You can type this query in your browser adress textbox, and you will get the dictionary content in XML format. 
 
@@ -65,8 +65,30 @@ public XDocument GetDictionaryContent(string urlToGetDictionaryContent, string l
 
 Remark #1 :  You rather use only one instance HttpClient to perform several queries. [See Remarks paragraph](https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=netframework-4.8)
 
-## 2. Export the environment definition
+## 2. Others queries
 
+### 2.1 The query to get package list related to an application
+
+The query is :
+
+http://myxldeployserver/deployit/repository/query?type=udm.DeploymentPackage&parent=Applications/FOLDER/MyApp
+
+* myxldeployserver/deployit : the server (root url)
+* repository : the service
+* query : the resource
+* type=udm.DeploymentPackage : mandatory 
+* parent=Applications/FOLDER/MyApp : the ID of the application (its type : udm.Application).
+
+### 2.2 The query to get the environment definition
+
+The query is :
+
+http://myxldeployserver/deployit/repository/ci/Environments/ENV/MyEnv
+
+* myxldeployserver/deployit : the server (root url)
+* repository : the service
+* ci : the resource
+* Environments/ENV/MyEnv : the dictionary ID (its type : udm.Environment).
 
 
 
